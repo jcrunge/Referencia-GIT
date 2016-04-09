@@ -1,11 +1,11 @@
 # Referencia-GIT
-Este es un pequeño manual de referencia basico que se vio en el curso de CIDWA.
+Este es un pequeño manual de referencia básico que se vio en el curso de CIDWA.
 
 **iniciar un proyecto **
 
 	>git init
 	
-**ignora parte del proyecto (con expreciones regulares)**
+**ignora parte del proyecto (con expresiones regulares)**
 
 	>git ignore
 	
@@ -25,21 +25,21 @@ Este es un pequeño manual de referencia basico que se vio en el curso de CIDWA.
 
 	>git add <nombre del archivo>
 	
-**Cuando se ha hecho un cambio, se guarda una nueva version con commit**
+**Cuando se ha hecho un cambio, se guarda una nueva versión con commit**
 
 	>git commit -m "MENSAJE"
 		se guarda el archivo y esta listo para subirse
 
-**remplaa el master por la rama a la que quieres enviar tus cambios**
+**reemplaza el master por la rama a la que quieres enviar tus cambios**
 
 	>git push <rama>
 
-**Configuracion de tu git**	
+**Configuración  de tu git**	
 
 	>git config --global push.default [simple, matching]
 	
 
-**si se inicia con un init y deseas agregar desde github o algun otro**
+**si se inicia con un init y deseas agregar desde github o algún otro**
 
 	>git remote add origin https://github.com/<usuario>/<Tu_repositorio.git>
 	
@@ -48,7 +48,7 @@ Este es un pequeño manual de referencia basico que se vio en el curso de CIDWA.
 
 	>git push -u origin master
 
-**cuando no se inicie el proyecto se tiene que hacer un repositorio vacio y clonarlo**
+**cuando no se inicie el proyecto se tiene que hacer un repositorio vacío y clonarlo**
 
 	>mkdir <repositorio>
 	>git clone <url>.git
