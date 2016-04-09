@@ -1,7 +1,7 @@
 # Referencia-GIT
 Este es un pequeño manual de referencia básico que se vio en el curso de CIDWA.
 
-**iniciar un proyecto **
+**iniciar un proyecto**
 
 	>git init
 	
